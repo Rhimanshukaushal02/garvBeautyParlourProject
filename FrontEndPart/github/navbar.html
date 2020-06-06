@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Playfair+Display:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Poppins;
+        }
+
+        .navbar {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: purple;
+            width: 100%;
+            height: 70px;
+            z-index: 1;
+
+        }
+
+        .nav {
+
+            display: flex;
+            list-style: none;
+            justify-content: right;
+            margin-right: 15%;
+        }
+
+        .logo img {
+            height: 52px;
+            margin-top: -18px;
+            width: 59px;
+            margin-left: 139px;
+        }
+
+
+        li {
+            padding: 22px;
+            margin: -1px;
+            margin-bottom: 50px;
+        }
+
+        a {
+            margin: 15px;
+            color:white;
+            text-decoration: none;
+           font-family: 'Metal Mania', cursive;;
+            
+        }
+
+
+        a:hover {
+            color: #000;
+
+        }
+
+        .banner-area {
+            position: relative;
+            background-image: url(2.jpeg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .about-area,
+        .service-area,
+        .contact-area,
+        .get-area,
+        .price-area {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            height: 700px;
+        }
+
+        .text {
+            width: 65%;
+            height: 80%;
+            
+        }
+        .about-area{
+            background-image: url(6.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Piedra', cursive;
+font-family: 'Playfair Display', serif;
+        }
+
+        p {
+            font-size: 24x;
+            line-height: 50pX;
+            font-family: 'Playfair Display', serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <ul class="nav">
+            <a href="#" class="logo"><img src="3.jpeg"></a>
+            <li><a href="#home">Home</a></l>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#get">Get Appointment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="banner-area" id="home"></div>
+    <div class="about-area" id="about">
+        <div class="text">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aliquam rerum tempora! Quisquam
+                exercitationem, excepturi earum nam reprehenderit quasi at esse laborum aspernatur tempore id, ex vel ut
+                quam animi.</p>
+        </div>
+    </div>
+
+
+
+    <div class="service-area" id="service">
+        <div class="text">
+            <h1>Service</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aliquam rerum tempora! Quisquam
+                exercitationem, excepturi earum nam reprehenderit quasi at esse laborum aspernatur tempore id, ex vel ut
+                quam animi.</p>
+        </div>
+    </div>
+
+    <div class="price-area" id="price">
+        <div class="text">
+            <h1>Price</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aliquam rerum tempora! Quisquam
+                exercitationem, excepturi earum nam reprehenderit quasi at esse laborum aspernatur tempore id, ex vel ut
+                quam animi.</p>
+        </div>
+    </div>
+
+    <div class="get-area" id="get">
+        <div class="text">
+            <h1>Get Appointment</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aliquam rerum tempora! Quisquam
+                exercitationem, excepturi earum nam reprehenderit quasi at esse laborum aspernatur tempore id, ex vel ut
+                quam animi.</p>
+        </div>
+    </div>
+    <div class="contact-area" id="contact">
+        <div class="text">
+            <h1>contact</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aliquam rerum tempora! Quisquam
+                exercitationem, excepturi earum nam reprehenderit quasi at esse laborum aspernatur tempore id, ex vel ut
+                quam animi.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
